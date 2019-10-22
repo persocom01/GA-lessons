@@ -46,7 +46,7 @@ Our course Slack channel: dsi-sg-11
 | Morning   | 2.02 Pandas: Intro 2 | 2.04 Principles of Data Visualization | 2.07 Inference/Confidence Interval | 2.05 Advanced transformation using Pandas | Project 1 Presentations |
 | Afternoon | 2.03 Pandas Concatenation  | 2.06 Exploratory Data Analysis (EDA) | 2.08 Inference/Hypothesis Testing | Outcomes Programming | Project 1 Presentations |
 | Labs | 2_01 Titanic EDA Lab |  |   |  | 1-on-1 |
-| Deadlines |  |  |  |  | Project 1: 27 Sept 2019 (Friday) |
+| Deadlines |  |  |  |  | Project 1 |
 
 #### Week 3 - Regression
 
@@ -64,7 +64,7 @@ Our course Slack channel: dsi-sg-11
 | Morning   | 4.01 Intro to Classification + Logistic Regression | 4.03 Classification Metrics I | 4.05 Hyperparameter Tuning and Pipelines | 4.06 API Integration & Consumption | Project 2 Presentations |
 | Afternoon | 4.02 k-Nearest Neighbours | 4.04 Classification Metrics II | Outcomes Programming | Lab/Project Time | Explore APIs |
 | Labs | 4_01 Classification Model Comparison Lab | 4_02 Classification Model Evaluation Lab | | | |
-| Deadlines | |  |  |  | Project 2: 11 Oct 2019 (Friday) |
+| Deadlines | |  |  |  | Project 2 |
 
 #### Week 5 - Web Scraping, APIs and NLP
 
@@ -83,7 +83,7 @@ Our course Slack channel: dsi-sg-11
 | Morning   | 6.01 CART | 6.03 Random Forests and Extra Trees | 6.05 SVMs | 6.07 Gradient Descent | Project 3 Presentations |
 | Afternoon | 6.02 Bootstrapping and Bagging | 6.04 Boosting | 6.06 GLMs | Project 3 Review & Prep | 1-on-1 |
 | Labs | 6.01 Supervised Model Comparison Lab | |Outcomes Programming | |
-| Deadlines |  |  |  | Capstone Check-in 1 | Project 3: 25 Oct 2019 (Friday) |
+| Deadlines |  |  |  | Capstone Check-in 1 | Project 3 |
 
 #### Week 7 - Unsupervised Learning
 
@@ -103,7 +103,7 @@ Our course Slack channel: dsi-sg-11
 | Morning   | 7.01 Intro to Correlated Data | 7.03 AR/MA/ARMA | 7.05 Spatial Data Analysis | 7.07 Benford's Law | Project 4 Presentations |
 | Afternoon | 7.02 Intro to Time Series/Autocorrelation | 7.04 Advanced Time Series Analysis | 7.06 Network Analysis | Outcomes Programming | Lab/Project Time |
 | Labs      | 7_01 Correlated Data Lab | 7_02 Time Series Lab |  |  |  |
-| Deadlines |  |  |  | Capstone Check-in 3 | Project 4: 8th Nov 2019 (Friday) |
+| Deadlines |  |  |  | Capstone Check-in 3 | Project 4 |
 
 
 
