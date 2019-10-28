@@ -59,7 +59,7 @@ Our course Slack channel: dsi-sg-11
 | Labs | | 2_01 Titanic EDA Lab |  |   |  |
 | Deadlines |  | |  |  |  |
 
-[2-01]: ./1.01-lesson-python-intro
+[2-01]: ./2.01-lesson-python-intro
 [2-02]: ./1.02-lesson-python-control-flow
 [2-03]: ./1.03-lesson-python-functions
 [2-04]: ./1.04-lesson-list-comprehension
