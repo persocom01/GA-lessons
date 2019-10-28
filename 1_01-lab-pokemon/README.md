@@ -1,9 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Game programming and analysis
 
+<!--
 ## Docker setup
 
 If you're new to running a lab or lecture in Docker, click here: https://youtu.be/E54JvUKnF-4
-
+-->
 
 ## Business Case
 

@@ -9,7 +9,9 @@
 | Lesson | Introduction to Python | [Link](./introduction-to-python3-notebook.ipynb)|
 | Lesson | Introduction to Data Types | [Link](./python-data-types-starter-code.ipynb)|
 
-# (./python-types-functions-lesson.ipynb)
+<!--
+(./python-types-functions-lesson.ipynb)
+-->
 ---
 
 ## Learning Objectives
