@@ -7,7 +7,7 @@ Schedules can be found in their respective week folders.
 Our course Slack channel: dsi-sg-11
 
 ### Instructor: Vidyut
-* Email:  </br>
+* Email:  vidyut@babel.sg</br>
 
 ### Instructional Assistants: 
 
@@ -34,65 +34,65 @@ Our course Slack channel: dsi-sg-11
 
 |         | Monday    | Tuesday    | Wednesday  | Thursday| Friday  |
 |---------|------------|------------|------------|---------|---------|
-| Morning | [1.01 Datatypes]() | [1.03 Functions]() | [1.05 Probability]() | [1.07 Distributions - Continuous]() | [2.01 Pandas: Intro 1(Basics)]()  |
-| Afternoon| [1.02 Control Flow]() | [1.04 Loops & List Comprehension]() | [1.06 Distributions - Discrete]() | 1.08 Central Limit Theorem | Lab/Project Time |
-| Labs | [1_01 Pokemon Lab]() | | | [1_02 Distributions Lab]()| |
+| Morning | Public Holiday | [1.01 Datatypes]() | [1.03 Functions]() | [1.05 Probability]() | [1.07 Distributions - Continuous]() |
+| Afternoon| Public Holiday | [1.02 Control Flow]() | [1.04 Loops & List Comprehension]() | [1.06 Distributions - Discrete]() | 1.08 Central Limit Theorem |
+| Labs | Public Holiday |  [1_01 Pokemon Lab]() | | | [1_02 Distributions Lab]()| |
 | Deadlines |  |  |  |  |  |
 
 #### Week 2 - Exploratory Data Analysis
 
 |           | Monday      | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   | 2.02 Pandas: Intro 2 | 2.04 Principles of Data Visualization | 2.07 Inference/Confidence Interval | 2.05 Advanced transformation using Pandas | Project 1 Presentations |
-| Afternoon | 2.03 Pandas Concatenation  | 2.06 Exploratory Data Analysis (EDA) | 2.08 Inference/Hypothesis Testing | Outcomes Programming | Project 1 Presentations |
-| Labs | 2_01 Titanic EDA Lab |  |   |  | 1-on-1 |
-| Deadlines |  |  |  |  | Project 1 |
+| Morning   |  [2.01 Pandas: Intro 1(Basics)]()  | 2.02 Pandas: Intro 2 | 2.04 Principles of Data Visualization | 2.07 Inference/Confidence Interval | 2.05 Advanced transformation using Pandas |
+| Afternoon | Lab/Project Time | 2.03 Pandas Concatenation  | 2.06 Exploratory Data Analysis (EDA) | 2.08 Inference/Hypothesis Testing | Outcomes Programming |
+| Labs | | 2_01 Titanic EDA Lab |  |   |  |
+| Deadlines |  | |  |  |  |
 
 #### Week 3 - Regression
 
 |           | Monday       | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   | 3.01 Linear Regression | 3.03 Bias-Variance Tradeoff | 3.05 Feature Engineering | 3.06 Regularization | 3.07 Model Workflow |
-| Afternoon | 3.02 Regression Evaluation Metrics | 3.04 Train/Test Split + Cross Validation | Lab/Project Time | Lab/Project Time | Lab/Project Time |
-| Labs | 3_01 Linear Regression Lab | Outcomes Programming | 3_02 Regularization and Validation Lab | | Outcomes Programming |
-| Deadlines |  |  |  |  | |
+| Morning   |  Project 1 Presentations | 3.01 Linear Regression | 3.03 Bias-Variance Tradeoff | 3.05 Feature Engineering | 3.06 Regularization |
+| Afternoon | Project 1 Presentations | 3.02 Regression Evaluation Metrics | 3.04 Train/Test Split + Cross Validation | Lab/Project Time | Lab/Project Time | 
+| Labs |  1-on-1 | 3_01 Linear Regression Lab | Outcomes Programming | 3_02 Regularization and Validation Lab | |
+| Deadlines |  Project 1 |  |  |  | |
 
 #### Week 4 - Classification
 
 |           | Monday         | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   | 4.01 Intro to Classification + Logistic Regression | 4.03 Classification Metrics I | 4.05 Hyperparameter Tuning and Pipelines | 4.06 API Integration & Consumption | Project 2 Presentations |
-| Afternoon | 4.02 k-Nearest Neighbours | 4.04 Classification Metrics II | Outcomes Programming | Lab/Project Time | Explore APIs |
-| Labs | 4_01 Classification Model Comparison Lab | 4_02 Classification Model Evaluation Lab | | | |
-| Deadlines | |  |  |  | Project 2 |
+| Morning   | 3.07 Model Workflow | 4.01 Intro to Classification + Logistic Regression | 4.03 Classification Metrics I | 4.05 Hyperparameter Tuning and Pipelines | 4.06 API Integration & Consumption |
+| Afternoon | Lab/Project Time | 4.02 k-Nearest Neighbours | 4.04 Classification Metrics II | Outcomes Programming | Lab/Project Time |
+| Labs | Outcomes Programming | 4_01 Classification Model Comparison Lab | 4_02 Classification Model Evaluation Lab | | |
+| Deadlines | |  |  |  | 
 
 #### Week 5 - Web Scraping, APIs and NLP
 
 |           | Monday       | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   | 5.01 Intro to HTML | 5.03 API & Flask | 5.05 NLP I | 5.07 Naive Bayes | 5.09 Object-Oriented Programming |
-| Afternoon | 5.02 Web Scraping using BeautifulSoup | 5.04 Introduction to AWS | 5.06 NLP II | 5.08 Regex | Lab/Project Time  |
+| Morning   |  Project 2 Presentations | 5.01 Intro to HTML | 5.03 API & Flask | 5.05 NLP I | 5.07 Naive Bayes |
+| Afternoon |  Explore APIs | 5.02 Web Scraping using BeautifulSoup | 5.04 Introduction to AWS | 5.06 NLP II | 5.08 Regex | 
 | Labs | 5_01 Scraping Lab |  | 5_02 NLP Lab | Outcomes Programming | |
-| Deadlines |  |  |  |  |  |
+| Deadlines | Project 2 |  |  |  |  |
 
 
 #### Week 6 - Advanced Supervised Learning
 
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   | 6.01 CART | 6.03 Random Forests and Extra Trees | 6.05 SVMs | 6.07 Gradient Descent | Project 3 Presentations |
-| Afternoon | 6.02 Bootstrapping and Bagging | 6.04 Boosting | 6.06 GLMs | Project 3 Review & Prep | 1-on-1 |
-| Labs | 6.01 Supervised Model Comparison Lab | |Outcomes Programming | |
-| Deadlines |  |  |  | Capstone Check-in 1 | Project 3 |
+| Morning   | 5.09 Object-Oriented Programming | 6.01 CART | 6.03 Random Forests and Extra Trees | 6.05 SVMs | 6.07 Gradient Descent | 
+| Afternoon | Lab/Project Time  | 6.02 Bootstrapping and Bagging | 6.04 Boosting | 6.06 GLMs | Project 3 Review & Prep | 
+| Labs | | 6.01 Supervised Model Comparison Lab | |Outcomes Programming | |
+| Deadlines |  |  |  | | Capstone Check-in 1 |
 
 #### Week 7 - Unsupervised Learning
 
 |           | Monday      | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   | Public Holiday | 8.01 Intro to Clustering: K-Means | 8.03 Clustering Walkthrough | 8.05 Recommender Systems I | 8.06 Recommender Systems II  |
-| Afternoon | Public Holiday | 8.02 DBSCAN Clustering | 8.04 PCA | Outcomes Programming | 8.07 Missing Data Imputation |
-| Labs      | Public Holiday | 8_01 Clustering Lab | 8_02 PCA Lab |  |  |  
-| Deadlines | Public Holiday | | | Capstone Check-in 2 |  |
+| Morning   | Project 3 Presentations | 8.01 Intro to Clustering: K-Means | 8.03 Clustering Walkthrough | 8.05 Recommender Systems I | 8.06 Recommender Systems II  |
+| Afternoon | 1-on-1 | 8.02 DBSCAN Clustering | 8.04 PCA | Outcomes Programming | 8.07 Missing Data Imputation |
+| Labs      | | 8_01 Clustering Lab | 8_02 PCA Lab |  |  |  
+| Deadlines |  Project 3 | | | Capstone Check-in 2 |  |
 
 
 
