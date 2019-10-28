@@ -9,17 +9,15 @@ Questions? Comments? Complaints?:
 
 > Unit 1, Lesson 4
 
-<!--- Unit and Lesson or sequence information. This template is an instructor-facing description of lesson contents. Students who fork these repos may also be able to view. --->
-
+<!--
 ## Docker setup (IF APPLICABLE!)
 
 After you've forked, cloned and `cd`'ed into this lecture, run the following to spin up a Docker container:
 ```bash
 docker run --name 1.02-lesson-python-control-flow -p 8888:8888 -v "$PWD":/home/jovyan/ jupyter/scipy-notebook
 ```
-
-
 ---
+-->
 
 ## Materials We Provide
 
