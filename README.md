@@ -34,12 +34,21 @@ Our course Slack channel: dsi-sg-11
 
 |         | Monday    | Tuesday    | Wednesday  | Thursday| Friday  |
 |---------|------------|------------|------------|---------|---------|
-| Morning | Public Holiday | [1.01 Datatypes][1-1A] | [1.03 Functions]() | [1.05 Probability]() | [1.07 Distributions - Continuous]() |
-| Afternoon| Public Holiday | [1.02 Control Flow]() | [1.04 Loops & List Comprehension]() | [1.06 Distributions - Discrete]() | 1.08 Central Limit Theorem |
-| Labs | Public Holiday |  [1_01 Pokemon Lab]() | | | [1_02 Distributions Lab]()| |
+| Morning | Public Holiday | [1.01 Datatypes][1-01] | [1.03 Functions][1-03] | [1.05 Probability][1-05] | [1.07 Distributions - Continuous]][1-07] |
+| Afternoon| Public Holiday | [1.02 Control Flow][1-02] | [1.04 Loops & List Comprehension][1-04] | [1.06 Distributions - Discrete][1-06] | [1.08 Central Limit Theorem][1-08] |
+| Labs | Public Holiday |  [1_01 Pokemon Lab][1-01_poke_lab] | | | [1_02 Distributions Lab][1-02_dist_lab]| |
 | Deadlines |  |  |  |  |  |
 
-[1-1A]: ./1.01-lesson-python-intro
+[1-01]: ./1.01-lesson-python-intro
+[1-02]: ./1.02-lesson-python-control-flow
+[1-03]: ./1.03-lesson-python-functions
+[1-04]: ./1.04-lesson-list-comprehension
+[1-05]: ./1.05-lesson-intro_to_probability
+[1-06]: ./1.06-lesson-discrete-distributions
+[1-07]: ./1.07-lesson-continuous-distributions
+[1-08]: ./1.08-lesson-central-limit-theorem
+[1-01_poke_lab]: ./1_01-lab-pokemon
+[1-02_dist_lab]: ./1_02-lab-distributions
 
 #### Week 2 - Exploratory Data Analysis
 
