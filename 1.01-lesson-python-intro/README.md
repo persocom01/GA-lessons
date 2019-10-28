@@ -25,6 +25,7 @@
 1. Describe/define Python data types
 
 ---
+<!--
 
 ## Docker setup (IF APPLICABLE!!)
 
@@ -33,6 +34,7 @@ After you've forked, cloned and `cd`'ed into this lecture, run the following to 
 docker run --name 1.01-lesson-python-intro -p 8888:8888 -v "$PWD":/home/jovyan/ jupyter/scipy-notebook
 ```
 ---
+-->
 
 ## Lesson Outline
 
