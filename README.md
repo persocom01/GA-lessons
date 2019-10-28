@@ -34,9 +34,9 @@ Our course Slack channel: dsi-sg-11
 
 |         | Monday    | Tuesday    | Wednesday  | Thursday| Friday  |
 |---------|------------|------------|------------|---------|---------|
-| Morning | Public Holiday | [1.01 Datatypes][1-01] | [1.03 Functions][1-03] | [1.05 Probability][1-05] | [1.07 Distributions - Continuous]][1-07] |
+| Morning | Public Holiday | [1.01 Datatypes][1-01] | [1.03 Functions][1-03] | [1.05 Probability][1-05] | [1.07 Distributions - Continuous][1-07] |
 | Afternoon| Public Holiday | [1.02 Control Flow][1-02] | [1.04 Loops & List Comprehension][1-04] | [1.06 Distributions - Discrete][1-06] | [1.08 Central Limit Theorem][1-08] |
-| Labs | Public Holiday |  [1_01 Pokemon Lab][1-01_poke_lab] | | | [1_02 Distributions Lab][1-02_dist_lab]| |
+| Labs | Public Holiday |   | [1_01 Pokemon Lab][1-01_poke_lab]| | [1_02 Distributions Lab][1-02_dist_lab]| |
 | Deadlines |  |  |  |  |  |
 
 [1-01]: ./1.01-lesson-python-intro
@@ -54,10 +54,21 @@ Our course Slack channel: dsi-sg-11
 
 |           | Monday      | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
-| Morning   |  [2.01 Pandas: Intro 1(Basics)]()  | 2.02 Pandas: Intro 2 | 2.04 Principles of Data Visualization | 2.07 Inference/Confidence Interval | 2.05 Advanced transformation using Pandas |
+| Morning   |  [2.01 Pandas: Intro 1(Basics)][2-01]  | 2.02 Pandas: Intro 2 | 2.04 Principles of Data Visualization | 2.07 Inference/Confidence Interval | 2.05 Advanced transformation using Pandas |
 | Afternoon | Lab/Project Time | 2.03 Pandas Concatenation  | 2.06 Exploratory Data Analysis (EDA) | 2.08 Inference/Hypothesis Testing | Outcomes Programming |
 | Labs | | 2_01 Titanic EDA Lab |  |   |  |
 | Deadlines |  | |  |  |  |
+
+[2-01]: ./1.01-lesson-python-intro
+[2-02]: ./1.02-lesson-python-control-flow
+[2-03]: ./1.03-lesson-python-functions
+[2-04]: ./1.04-lesson-list-comprehension
+[2-05]: ./1.05-lesson-intro_to_probability
+[2-06]: ./1.06-lesson-discrete-distributions
+[2-07]: ./1.07-lesson-continuous-distributions
+[2-08]: ./1.08-lesson-central-limit-theorem
+[2-01_poke_lab]: ./1_01-lab-pokemon
+[2-02_dist_lab]: ./1_02-lab-distributions
 
 #### Week 3 - Regression
 
