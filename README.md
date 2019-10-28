@@ -30,14 +30,16 @@ Our course Slack channel: dsi-sg-11
 
 ---
 
-#### Week 1 - Getting Started: Python for Data Science
+#### Week 1 () - Getting Started: Python for Data Science
 
 |         | Monday    | Tuesday    | Wednesday  | Thursday| Friday  |
 |---------|------------|------------|------------|---------|---------|
-| Morning | Public Holiday | [1.01 Datatypes]() | [1.03 Functions]() | [1.05 Probability]() | [1.07 Distributions - Continuous]() |
+| Morning | Public Holiday | [1.01 Datatypes] [1-1A] | [1.03 Functions]() | [1.05 Probability]() | [1.07 Distributions - Continuous]() |
 | Afternoon| Public Holiday | [1.02 Control Flow]() | [1.04 Loops & List Comprehension]() | [1.06 Distributions - Discrete]() | 1.08 Central Limit Theorem |
 | Labs | Public Holiday |  [1_01 Pokemon Lab]() | | | [1_02 Distributions Lab]()| |
 | Deadlines |  |  |  |  |  |
+
+[1-1A]: ./1.01-lesson-python-intro
 
 #### Week 2 - Exploratory Data Analysis
 
