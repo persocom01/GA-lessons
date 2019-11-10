@@ -23,7 +23,6 @@ The aggregate SAT and ACT scores and participation rates from each state in the 
 |s17_erw|int|SAT 2017|The mean reported score for the Evidence-Based Reading and Writing section of the SAT.|
 |s17_math|int|SAT 2017|The mean reported score for the Math section of the SAT.|
 |s17_total|int|SAT 2017|The mean total reported SAT score.|
-|a17_state|object|ACT 2017|State names from the USA.|
 |a17_part|float|ACT 2017|The percentage of high school graduates in the state who took the ACT.|
 |a17_eng|float|ACT 2017|The mean reported score for the English section of the ACT.|
 |a17_math|float|ACT 2017|The mean reported score for the Math section of the ACT.|
@@ -34,7 +33,6 @@ The aggregate SAT and ACT scores and participation rates from each state in the 
 |s18_erw|int|SAT 2018|The mean reported score for the Evidence-Based Reading and Writing section of the SAT.|
 |s18_math|int|SAT 2018|The mean reported score for the Math section of the SAT.|
 |s18_total|int|SAT 2018|The mean total reported SAT score.|
-|a18_state|object|ACT 2018|State names from the USA.|
 |a18_part|float|ACT 2018|The percentage of high school graduates in the state who took the ACT.|
 |a18_eng|float|ACT 2018|The mean reported score for the English section of the ACT.|
 |a18_math|float|ACT 2018|The mean reported score for the Math section of the ACT.|
