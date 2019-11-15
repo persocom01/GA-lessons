@@ -2,8 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
+import os
 
-import_path = r'.\DSI_kickstarterscrape_dataset.xlsx'
+import_path = r'.\PROJECTS-AND-ASSIGNMENTS\GA application\DSI_kickstarterscrape_dataset.xlsx'
 data = pd.read_excel(import_path)
 df = pd.DataFrame(data, columns=['duration'])
 # Necessary as the original structure of a series of arrays could not be
