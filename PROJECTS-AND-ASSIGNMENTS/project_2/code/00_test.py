@@ -11,6 +11,4 @@ import_path = r'.\PROJECTS-AND-ASSIGNMENTS\project_2\datasets\train.csv'
 data = pd.read_csv(import_path)
 df = pd.DataFrame(data)
 print(df.shape)
-
-for k, v in df.isnull().sum().iteritems():
-    print(k, v)
+print(df.isnull().sum())
