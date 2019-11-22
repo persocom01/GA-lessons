@@ -18,6 +18,10 @@ print('initial data shape:', df.shape)
 print(df.head())
 print()
 
+# Drop unwanted columns.
+del df['id']
+del df['pid']
+
 # Print all null values.
 print('training set null values:')
 for k, v in df.isnull().sum().iteritems():
@@ -87,8 +91,13 @@ import_path = r'.\PROJECTS-AND-ASSIGNMENTS\project_2\datasets\test.csv'
 # Dataset contains NA strings that should not be considered null values.
 data = pd.read_csv(import_path, keep_default_na=False, na_values=[''])
 df2 = pd.DataFrame(data)
+
 # Simplify column names.
 df2.columns = [x.lower().replace(' ', '_') for x in df2.columns]
+
+# Drop unwanted columns.
+del df2['id']
+del df2['pid']
 
 # Print all null values.
 print('test set null values:')
