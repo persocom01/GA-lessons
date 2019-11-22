@@ -11,9 +11,11 @@ import_path = r'.\PROJECTS-AND-ASSIGNMENTS\project_2\datasets\train.csv'
 # Dataset contains NA strings that should not be considered null values.
 data = pd.read_csv(import_path, keep_default_na=False, na_values=[''])
 df = pd.DataFrame(data)
+
 # Simplify column names.
 df.columns = [x.lower().replace(' ', '_') for x in df.columns]
 print('initial data shape:', df.shape)
+print(df.head())
 print()
 
 # Print all null values.
@@ -52,15 +54,12 @@ lot_f_mean = df['lot_frontage'].mean()
 df['lot_frontage'] = df['lot_frontage'].fillna(lot_f_mean)
 
 # It is observed that most of the null values in the 'garage_yr_blt' variable
-# are due to not having a garage in the first place. These values are valid.
-# Drop the invalid values, where a garage exists but there is no built year.
-invalid_garage_yr_values = df[(df['garage_type'] != 'NA') & (df['garage_yr_blt'].isnull())]
-print('number of invalid garage_yr_values:', len(invalid_garage_yr_values.index))
-df = df.drop(invalid_garage_yr_values.index)
+# are due to not having a garage in the first place. As it is unlikely these
+# values will be useful, drop the whole column.
+del df['garage_yr_blt']
 
 # The other null valies are confirmed invalid and their rows will be dropped.
-other_null_columns = features = [col for col in df.columns if col != 'garage_yr_blt']
-df = df.dropna(subset=other_null_columns)
+df = df.dropna()
 
 # Confirm remaining null values.
 for k, v in df.isnull().sum().iteritems():
@@ -69,20 +68,17 @@ for k, v in df.isnull().sum().iteritems():
 print()
 
 # Check for incorrect datatypes.
+print('checking datatypes.')
 for k, v in df.dtypes.iteritems():
     print(k, v)
 print()
 # All datatypes confirmed to be correct.
 
-for x, v in df.describe(include='object').items():
-    print(x, v)
-# print())
-
 print('cleaned data shape:', df.shape)
 print()
 
 export_path = r'.\PROJECTS-AND-ASSIGNMENTS\project_2\datasets\clean_train.csv'
-df.to_csv(export_path)
+df.to_csv(export_path, index=False)
 
 # ------------------------------------------------------------------------------
 
@@ -101,6 +97,9 @@ for k, v in df2.isnull().sum().iteritems():
         print(k, v)
 print()
 
+# We don't be using this column.
+del df2['garage_yr_blt']
+
 # Since we can't drop any of the test dataset rows, we will have to replace
 # them with a representative value if possible.
 # Fill continuous variables with the train mean.
@@ -115,4 +114,4 @@ df2['electrical'] = df2['electrical'].fillna(df['electrical'].value_counts().key
 df2['garage_finish'] = df2['garage_finish'].fillna(df['garage_finish'].value_counts().keys()[0])
 
 export_path = r'.\PROJECTS-AND-ASSIGNMENTS\project_2\datasets\clean_test.csv'
-df2.to_csv(export_path)
+df2.to_csv(export_path, index=False)
