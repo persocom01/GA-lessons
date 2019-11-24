@@ -115,5 +115,9 @@ def subplot_dist(df, kind='dist', cols=None, titles=None, xlabels=None, ylabels=
             ax[i].set_ylabel(ylabels[i])
 
 
+def adj_r2(X, y, y_hat):
+    return 1 - (1-skm.r2_score(y, y_hat))*(len(y)-1)/(len(y)-X.shape[1]-1)
+
+
 __all__ = ['np', 'pd', 'sb', 'plt', 'skpp', 'skms',
-           'sklm', 'skm', 'ordinal_scale', 'vif_feature_select', 'subplot_dist']
+           'sklm', 'skm', 'ordinal_scale', 'vif_feature_select', 'subplot_dist', 'adj_r2']
