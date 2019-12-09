@@ -9,8 +9,8 @@ class Roc:
 
     def auc_score(self, y_test, y_pred):
         '''
-        This is just the sklearn roc_auc_score in a wrapper that makes it work
-        even if the target is multi-categorical or has not been label encoded.
+        A wrapper on the sklearn roc_auc_score that makes it work even if the
+        target is multi-categorical or has not been label encoded.
         '''
         from sklearn.preprocessing import label_binarize
         from sklearn.metrics import roc_auc_score
@@ -30,6 +30,36 @@ class Roc:
         # Returns the mean roc auc score. The closer it is to 1, the better.
         return roc_auc_score(lb_test, lb_pred)
 
+    def dt_auc_scores(self, X_train, X_test, y_train, y_test, param_grid):
+        '''
+        A function for returning AUC scores for the 3 most important parameters
+        of a decision tree. It is used in conjunction with plot_auc to help
+        visualize the ideal decision tree parameters.
+        '''
+        from sklearn.tree import DecisionTreeClassifier
+        train_auc_scores = []
+        test_auc_scores = []
+
+        for key, value in param_grid.items():
+            for v in value:
+                if key == 'max_depth' or key == 'md':
+                    dt = DecisionTreeClassifier(max_depth=v)
+                elif key == 'min_samples_split' or key == 'mss':
+                    dt = DecisionTreeClassifier(min_samples_split=v)
+                elif key == 'min_samples_leaf' or key == 'msl':
+                    dt = DecisionTreeClassifier(min_samples_leaf=v)
+                else:
+                    raise Exception('unrecognized keyword.')
+                dt.fit(X_train, y_train)
+
+                y_pred_train = dt.predict(X_train)
+                train_auc_scores.append(self.auc_score(y_train, y_pred_train))
+
+                y_pred = dt.predict(X_test)
+                test_auc_scores.append(self.auc_score(y_test, y_pred))
+
+        return [train_auc_scores, test_auc_scores]
+
     def plot_auc(self, x, auc_scores, lw=2, title=None, xlabel=None, labels=None, **kwargs):
         import matplotlib.pyplot as plt
         fig, ax = plt.subplots(**kwargs)
@@ -46,8 +76,7 @@ class Roc:
 
     def plot(self, y_test, y_pred, average='macro', lw=2, title=None, labels=None, **kwargs):
         '''
-        A convenience function for plotting Receiver Operating Characteristic
-        (ROC) curves.
+        A function for plotting Receiver Operating Characteristic (ROC) curves.
 
         labels accepts a dictionary of the column values mapped onto class
         names. If the column values are simply integers, it is possible to just
