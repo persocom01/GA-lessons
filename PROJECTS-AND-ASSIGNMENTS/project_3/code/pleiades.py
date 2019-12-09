@@ -14,7 +14,7 @@ class CZ:
             "'m": " am",
             "'ll": " will",
             "'ve": " have",
-            "'re'": " are"
+            "'re": " are"
         }
 
     # To tokenize is to split the sentence into words.
