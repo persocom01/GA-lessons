@@ -1,0 +1,19 @@
+[foods]
+    *id {label:"INTEGER"}
+    name {label:"VARCHAR"}
+    restaurant_id {label:"INTEGER"}
+    calories {label:"INTEGER"}
+    fat {label:"INTEGER"}
+    carbs {label:"INTEGER"}
+[restaurants]
+    *id {label:"INTEGER"}
+    name {label:"VARCHAR"}
+[categories]
+    *id {label:"INTEGER"}
+    name {label:"VARCHAR"}
+[categories_foods]
+    category_id {label:"INTEGER"}
+    food_id {label:"INTEGER"}
+restaurants *--? foods
+foods *--? categories_foods
+categories *--? categories_foods

@@ -1,0 +1,892 @@
+PassengerId,Name,Sex,Age,SibSp,Parch
+1,Braund Mr. Owen Harris,male,22.0,1,0
+2,Cumings Mrs. John Bradley (Florence Briggs Thayer),female,38.0,1,0
+3,Heikkinen Miss. Laina,female,26.0,0,0
+4,Futrelle Mrs. Jacques Heath (Lily May Peel),female,35.0,1,0
+5,Allen Mr. William Henry,male,35.0,0,0
+6,Moran Mr. James,male,29.0,0,0
+7,McCarthy Mr. Timothy J,male,54.0,0,0
+8,Palsson Master. Gosta Leonard,male,2.0,3,1
+9,Johnson Mrs. Oscar W (Elisabeth Vilhelmina Berg),female,27.0,0,2
+10,Nasser Mrs. Nicholas (Adele Achem),female,14.0,1,0
+11,Sandstrom Miss. Marguerite Rut,female,4.0,1,1
+12,Bonnell Miss. Elizabeth,female,58.0,0,0
+13,Saundercock Mr. William Henry,male,20.0,0,0
+14,Andersson Mr. Anders Johan,male,39.0,1,5
+15,Vestrom Miss. Hulda Amanda Adolfina,female,14.0,0,0
+16,Hewlett Mrs. (Mary D Kingcome) ,female,55.0,0,0
+17,Rice Master. Eugene,male,2.0,4,1
+18,Williams Mr. Charles Eugene,male,29.0,0,0
+19,Vander Planke Mrs. Julius (Emelia Maria Vandemoortele),female,31.0,1,0
+20,Masselmani Mrs. Fatima,female,29.0,0,0
+21,Fynney Mr. Joseph J,male,35.0,0,0
+22,Beesley Mr. Lawrence,male,34.0,0,0
+23,"McGowan Miss. Anna ""Annie""",female,15.0,0,0
+24,Sloper Mr. William Thompson,male,28.0,0,0
+25,Palsson Miss. Torborg Danira,female,8.0,3,1
+26,Asplund Mrs. Carl Oscar (Selma Augusta Emilia Johansson),female,38.0,1,5
+27,Emir Mr. Farred Chehab,male,29.0,0,0
+28,Fortune Mr. Charles Alexander,male,19.0,3,2
+29,"O'Dwyer Miss. Ellen ""Nellie""",female,29.0,0,0
+30,Todoroff Mr. Lalio,male,29.0,0,0
+31,Uruchurtu Don. Manuel E,male,40.0,0,0
+32,Spencer Mrs. William Augustus (Marie Eugenie),female,29.0,1,0
+33,Glynn Miss. Mary Agatha,female,29.0,0,0
+34,Wheadon Mr. Edward H,male,66.0,0,0
+35,Meyer Mr. Edgar Joseph,male,28.0,1,0
+36,Holverson Mr. Alexander Oskar,male,42.0,1,0
+37,Mamee Mr. Hanna,male,29.0,0,0
+38,Cann Mr. Ernest Charles,male,21.0,0,0
+39,Vander Planke Miss. Augusta Maria,female,18.0,2,0
+40,Nicola-Yarred Miss. Jamila,female,14.0,1,0
+41,Ahlin Mrs. Johan (Johanna Persdotter Larsson),female,40.0,1,0
+42,Turpin Mrs. William John Robert (Dorothy Ann Wonnacott),female,27.0,1,0
+43,Kraeff Mr. Theodor,male,29.0,0,0
+44,Laroche Miss. Simonne Marie Anne Andree,female,3.0,1,2
+45,Devaney Miss. Margaret Delia,female,19.0,0,0
+46,Rogers Mr. William John,male,29.0,0,0
+47,Lennon Mr. Denis,male,29.0,1,0
+48,O'Driscoll Miss. Bridget,female,29.0,0,0
+49,Samaan Mr. Youssef,male,29.0,2,0
+50,Arnold-Franchi Mrs. Josef (Josefine Franchi),female,18.0,1,0
+51,Panula Master. Juha Niilo,male,7.0,4,1
+52,Nosworthy Mr. Richard Cater,male,21.0,0,0
+53,Harper Mrs. Henry Sleeper (Myna Haxtun),female,49.0,1,0
+54,Faunthorpe Mrs. Lizzie (Elizabeth Anne Wilkinson),female,29.0,1,0
+55,Ostby Mr. Engelhart Cornelius,male,65.0,0,1
+56,Woolner Mr. Hugh,male,29.0,0,0
+57,Rugg Miss. Emily,female,21.0,0,0
+58,Novel Mr. Mansouer,male,28.5,0,0
+59,West Miss. Constance Mirium,female,5.0,1,2
+60,Goodwin Master. William Frederick,male,11.0,5,2
+61,Sirayanian Mr. Orsen,male,22.0,0,0
+62,Icard Miss. Amelie,female,38.0,0,0
+63,Harris Mr. Henry Birkhardt,male,45.0,1,0
+64,Skoog Master. Harald,male,4.0,3,2
+65,Stewart Mr. Albert A,male,29.0,0,0
+66,Moubarek Master. Gerios,male,29.0,1,1
+67,Nye Mrs. (Elizabeth Ramell),female,29.0,0,0
+68,Crease Mr. Ernest James,male,19.0,0,0
+69,Andersson Miss. Erna Alexandra,female,17.0,4,2
+70,Kink Mr. Vincenz,male,26.0,2,0
+71,Jenkin Mr. Stephen Curnow,male,32.0,0,0
+72,Goodwin Miss. Lillian Amy,female,16.0,5,2
+73,Hood Mr. Ambrose Jr,male,21.0,0,0
+74,Chronopoulos Mr. Apostolos,male,26.0,1,0
+75,Bing Mr. Lee,male,32.0,0,0
+76,Moen Mr. Sigurd Hansen,male,25.0,0,0
+77,Staneff Mr. Ivan,male,29.0,0,0
+78,Moutal Mr. Rahamin Haim,male,29.0,0,0
+79,Caldwell Master. Alden Gates,male,0.83,0,2
+80,Dowdell Miss. Elizabeth,female,30.0,0,0
+81,Waelens Mr. Achille,male,22.0,0,0
+82,Sheerlinck Mr. Jan Baptist,male,29.0,0,0
+83,McDermott Miss. Brigdet Delia,female,29.0,0,0
+84,Carrau Mr. Francisco M,male,28.0,0,0
+85,Ilett Miss. Bertha,female,17.0,0,0
+86,Backstrom Mrs. Karl Alfred (Maria Mathilda Gustafsson),female,33.0,3,0
+87,Ford Mr. William Neal,male,16.0,1,3
+88,Slocovski Mr. Selman Francis,male,29.0,0,0
+89,Fortune Miss. Mabel Helen,female,23.0,3,2
+90,Celotti Mr. Francesco,male,24.0,0,0
+91,Christmann Mr. Emil,male,29.0,0,0
+92,Andreasson Mr. Paul Edvin,male,20.0,0,0
+93,Chaffee Mr. Herbert Fuller,male,46.0,1,0
+94,Dean Mr. Bertram Frank,male,26.0,1,2
+95,Coxon Mr. Daniel,male,59.0,0,0
+96,Shorney Mr. Charles Joseph,male,29.0,0,0
+97,Goldschmidt Mr. George B,male,71.0,0,0
+98,Greenfield Mr. William Bertram,male,23.0,0,1
+99,Doling Mrs. John T (Ada Julia Bone),female,34.0,0,1
+100,Kantor Mr. Sinai,male,34.0,1,0
+101,Petranec Miss. Matilda,female,28.0,0,0
+102,"Petroff Mr. Pastcho (""Pentcho"")",male,29.0,0,0
+103,White Mr. Richard Frasar,male,21.0,0,1
+104,Johansson Mr. Gustaf Joel,male,33.0,0,0
+105,Gustafsson Mr. Anders Vilhelm,male,37.0,2,0
+106,Mionoff Mr. Stoytcho,male,28.0,0,0
+107,Salkjelsvik Miss. Anna Kristine,female,21.0,0,0
+108,Moss Mr. Albert Johan,male,29.0,0,0
+109,Rekic Mr. Tido,male,38.0,0,0
+110,Moran Miss. Bertha,female,29.0,1,0
+111,Porter Mr. Walter Chamberlain,male,47.0,0,0
+112,Zabour Miss. Hileni,female,14.5,1,0
+113,Barton Mr. David John,male,22.0,0,0
+114,Jussila Miss. Katriina,female,20.0,1,0
+115,Attalah Miss. Malake,female,17.0,0,0
+116,Pekoniemi Mr. Edvard,male,21.0,0,0
+117,Connors Mr. Patrick,male,70.5,0,0
+118,Turpin Mr. William John Robert,male,29.0,1,0
+119,Baxter Mr. Quigg Edmond,male,24.0,0,1
+120,Andersson Miss. Ellis Anna Maria,female,2.0,4,2
+121,Hickman Mr. Stanley George,male,21.0,2,0
+122,Moore Mr. Leonard Charles,male,29.0,0,0
+123,Nasser Mr. Nicholas,male,32.5,1,0
+124,Webber Miss. Susan,female,32.5,0,0
+125,White Mr. Percival Wayland,male,54.0,0,1
+126,Nicola-Yarred Master. Elias,male,12.0,1,0
+127,McMahon Mr. Martin,male,29.0,0,0
+128,Madsen Mr. Fridtjof Arne,male,24.0,0,0
+129,Peter Miss. Anna,female,29.0,1,1
+130,Ekstrom Mr. Johan,male,45.0,0,0
+131,Drazenoic Mr. Jozef,male,33.0,0,0
+132,Coelho Mr. Domingos Fernandeo,male,20.0,0,0
+133,Robins Mrs. Alexander A (Grace Charity Laury),female,47.0,1,0
+134,Weisz Mrs. Leopold (Mathilde Francoise Pede),female,29.0,1,0
+135,Sobey Mr. Samuel James Hayden,male,25.0,0,0
+136,Richard Mr. Emile,male,23.0,0,0
+137,Newsom Miss. Helen Monypeny,female,19.0,0,2
+138,Futrelle Mr. Jacques Heath,male,37.0,1,0
+139,Osen Mr. Olaf Elon,male,16.0,0,0
+140,Giglio Mr. Victor,male,24.0,0,0
+141,Boulos Mrs. Joseph (Sultana),female,29.0,0,2
+142,Nysten Miss. Anna Sofia,female,22.0,0,0
+143,Hakkarainen Mrs. Pekka Pietari (Elin Matilda Dolck),female,24.0,1,0
+144,Burke Mr. Jeremiah,male,19.0,0,0
+145,Andrew Mr. Edgardo Samuel,male,18.0,0,0
+146,Nicholls Mr. Joseph Charles,male,19.0,1,1
+147,"Andersson Mr. August Edvard (""Wennerstrom"")",male,27.0,0,0
+148,"Ford Miss. Robina Maggie ""Ruby""",female,9.0,2,2
+149,"Navratil Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2
+150,Byles Rev. Thomas Roussel Davids,male,42.0,0,0
+151,Bateman Rev. Robert James,male,51.0,0,0
+152,Pears Mrs. Thomas (Edith Wearne),female,22.0,1,0
+153,Meo Mr. Alfonzo,male,55.5,0,0
+154,van Billiard Mr. Austin Blyler,male,40.5,0,2
+155,Olsen Mr. Ole Martin,male,29.0,0,0
+156,Williams Mr. Charles Duane,male,51.0,0,1
+157,"Gilnagh Miss. Katherine ""Katie""",female,16.0,0,0
+158,Corn Mr. Harry,male,30.0,0,0
+159,Smiljanic Mr. Mile,male,29.0,0,0
+160,Sage Master. Thomas Henry,male,29.0,8,2
+161,Cribb Mr. John Hatfield,male,44.0,0,1
+162,"Watt Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40.0,0,0
+163,Bengtsson Mr. John Viktor,male,26.0,0,0
+164,Calic Mr. Jovo,male,17.0,0,0
+165,Panula Master. Eino Viljami,male,1.0,4,1
+166,"Goldsmith Master. Frank John William ""Frankie""",male,9.0,0,2
+167,Chibnall Mrs. (Edith Martha Bowerman),female,29.0,0,1
+168,Skoog Mrs. William (Anna Bernhardina Karlsson),female,45.0,1,4
+169,Baumann Mr. John D,male,29.0,0,0
+170,Ling Mr. Lee,male,28.0,0,0
+171,Van der hoef Mr. Wyckoff,male,61.0,0,0
+172,Rice Master. Arthur,male,4.0,4,1
+173,Johnson Miss. Eleanor Ileen,female,1.0,1,1
+174,Sivola Mr. Antti Wilhelm,male,21.0,0,0
+175,Smith Mr. James Clinch,male,56.0,0,0
+176,Klasen Mr. Klas Albin,male,18.0,1,1
+177,Lefebre Master. Henry Forbes,male,29.0,3,1
+178,Isham Miss. Ann Elizabeth,female,50.0,0,0
+179,Hale Mr. Reginald,male,30.0,0,0
+180,Leonard Mr. Lionel,male,36.0,0,0
+181,Sage Miss. Constance Gladys,female,29.0,8,2
+182,Pernot Mr. Rene,male,29.0,0,0
+183,Asplund Master. Clarence Gustaf Hugo,male,9.0,4,2
+184,Becker Master. Richard F,male,1.0,2,1
+185,Kink-Heilmann Miss. Luise Gretchen,female,4.0,0,2
+186,Rood Mr. Hugh Roscoe,male,29.0,0,0
+187,"O'Brien Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,29.0,1,0
+188,"Romaine Mr. Charles Hallace (""Mr C Rolmane"")",male,45.0,0,0
+189,Bourke Mr. John,male,40.0,1,1
+190,Turcin Mr. Stjepan,male,36.0,0,0
+191,Pinsky Mrs. (Rosa),female,32.0,0,0
+192,Carbines Mr. William,male,19.0,0,0
+193,Andersen-Jensen Miss. Carla Christine Nielsine,female,19.0,1,0
+194,Navratil Master. Michel M,male,3.0,1,1
+195,Brown Mrs. James Joseph (Margaret Tobin),female,44.0,0,0
+196,Lurette Miss. Elise,female,58.0,0,0
+197,Mernagh Mr. Robert,male,29.0,0,0
+198,Olsen Mr. Karl Siegwart Andreas,male,42.0,0,1
+199,"Madigan Miss. Margaret ""Maggie""",female,29.0,0,0
+200,"Yrois Miss. Henriette (""Mrs Harbeck"")",female,24.0,0,0
+201,Vande Walle Mr. Nestor Cyriel,male,28.0,0,0
+202,Sage Mr. Frederick,male,29.0,8,2
+203,Johanson Mr. Jakob Alfred,male,34.0,0,0
+204,Youseff Mr. Gerious,male,45.5,0,0
+205,"Cohen Mr. Gurshon ""Gus""",male,18.0,0,0
+206,Strom Miss. Telma Matilda,female,2.0,0,1
+207,Backstrom Mr. Karl Alfred,male,32.0,1,0
+208,Albimona Mr. Nassef Cassem,male,26.0,0,0
+209,"Carr Miss. Helen ""Ellen""",female,16.0,0,0
+210,Blank Mr. Henry,male,40.0,0,0
+211,Ali Mr. Ahmed,male,24.0,0,0
+212,Cameron Miss. Clear Annie,female,35.0,0,0
+213,Perkin Mr. John Henry,male,22.0,0,0
+214,Givard Mr. Hans Kristensen,male,30.0,0,0
+215,Kiernan Mr. Philip,male,29.0,1,0
+216,Newell Miss. Madeleine,female,31.0,1,0
+217,Honkanen Miss. Eliina,female,27.0,0,0
+218,Jacobsohn Mr. Sidney Samuel,male,42.0,1,0
+219,Bazzani Miss. Albina,female,32.0,0,0
+220,Harris Mr. Walter,male,30.0,0,0
+221,Sunderland Mr. Victor Francis,male,16.0,0,0
+222,Bracken Mr. James H,male,27.0,0,0
+223,Green Mr. George Henry,male,51.0,0,0
+224,Nenkoff Mr. Christo,male,29.0,0,0
+225,Hoyt Mr. Frederick Maxfield,male,38.0,1,0
+226,Berglund Mr. Karl Ivar Sven,male,22.0,0,0
+227,Mellors Mr. William John,male,19.0,0,0
+228,"Lovell Mr. John Hall (""Henry"")",male,20.5,0,0
+229,Fahlstrom Mr. Arne Jonas,male,18.0,0,0
+230,Lefebre Miss. Mathilde,female,29.0,3,1
+231,Harris Mrs. Henry Birkhardt (Irene Wallach),female,35.0,1,0
+232,Larsson Mr. Bengt Edvin,male,29.0,0,0
+233,Sjostedt Mr. Ernst Adolf,male,59.0,0,0
+234,Asplund Miss. Lillian Gertrud,female,5.0,4,2
+235,Leyson Mr. Robert William Norman,male,24.0,0,0
+236,Harknett Miss. Alice Phoebe,female,29.0,0,0
+237,Hold Mr. Stephen,male,44.0,1,0
+238,"Collyer Miss. Marjorie ""Lottie""",female,8.0,0,2
+239,Pengelly Mr. Frederick William,male,19.0,0,0
+240,Hunt Mr. George Henry,male,33.0,0,0
+241,Zabour Miss. Thamine,female,29.0,1,0
+242,"Murphy Miss. Katherine ""Kate""",female,29.0,1,0
+243,Coleridge Mr. Reginald Charles,male,29.0,0,0
+244,Maenpaa Mr. Matti Alexanteri,male,22.0,0,0
+245,Attalah Mr. Sleiman,male,30.0,0,0
+246,Minahan Dr. William Edward,male,44.0,2,0
+247,Lindahl Miss. Agda Thorilda Viktoria,female,25.0,0,0
+248,Hamalainen Mrs. William (Anna),female,24.0,0,2
+249,Beckwith Mr. Richard Leonard,male,37.0,1,1
+250,Carter Rev. Ernest Courtenay,male,54.0,1,0
+251,Reed Mr. James George,male,29.0,0,0
+252,Strom Mrs. Wilhelm (Elna Matilda Persson),female,29.0,1,1
+253,Stead Mr. William Thomas,male,62.0,0,0
+254,Lobb Mr. William Arthur,male,30.0,1,0
+255,Rosblom Mrs. Viktor (Helena Wilhelmina),female,41.0,0,2
+256,Touma Mrs. Darwis (Hanne Youssef Razi),female,29.0,0,2
+257,Thorne Mrs. Gertrude Maybelle,female,29.0,0,0
+258,Cherry Miss. Gladys,female,30.0,0,0
+259,Ward Miss. Anna,female,35.0,0,0
+260,Parrish Mrs. (Lutie Davis),female,50.0,0,1
+261,Smith Mr. Thomas,male,29.0,0,0
+262,Asplund Master. Edvin Rojj Felix,male,3.0,4,2
+263,Taussig Mr. Emil,male,52.0,1,1
+264,Harrison Mr. William,male,40.0,0,0
+265,Henry Miss. Delia,female,29.0,0,0
+266,Reeves Mr. David,male,36.0,0,0
+267,Panula Mr. Ernesti Arvid,male,16.0,4,1
+268,Persson Mr. Ernst Ulrik,male,25.0,1,0
+269,Graham Mrs. William Thompson (Edith Junkins),female,58.0,0,1
+270,Bissette Miss. Amelia,female,35.0,0,0
+271,Cairns Mr. Alexander,male,29.0,0,0
+272,Tornquist Mr. William Henry,male,25.0,0,0
+273,Mellinger Mrs. (Elizabeth Anne Maidment),female,41.0,0,1
+274,Natsch Mr. Charles H,male,37.0,0,1
+275,"Healy Miss. Hanora ""Nora""",female,29.0,0,0
+276,Andrews Miss. Kornelia Theodosia,female,63.0,1,0
+277,Lindblom Miss. Augusta Charlotta,female,45.0,0,0
+278,"Parkes Mr. Francis ""Frank""",male,29.0,0,0
+279,Rice Master. Eric,male,7.0,4,1
+280,Abbott Mrs. Stanton (Rosa Hunt),female,35.0,1,1
+281,Duane Mr. Frank,male,65.0,0,0
+282,Olsson Mr. Nils Johan Goransson,male,28.0,0,0
+283,de Pelsmaeker Mr. Alfons,male,16.0,0,0
+284,Dorking Mr. Edward Arthur,male,19.0,0,0
+285,Smith Mr. Richard William,male,29.0,0,0
+286,Stankovic Mr. Ivan,male,33.0,0,0
+287,de Mulder Mr. Theodore,male,30.0,0,0
+288,Naidenoff Mr. Penko,male,22.0,0,0
+289,Hosono Mr. Masabumi,male,42.0,0,0
+290,Connolly Miss. Kate,female,22.0,0,0
+291,"Barber Miss. Ellen ""Nellie""",female,26.0,0,0
+292,Bishop Mrs. Dickinson H (Helen Walton),female,19.0,1,0
+293,Levy Mr. Rene Jacques,male,36.0,0,0
+294,Haas Miss. Aloisia,female,24.0,0,0
+295,Mineff Mr. Ivan,male,24.0,0,0
+296,Lewy Mr. Ervin G,male,29.0,0,0
+297,Hanna Mr. Mansour,male,23.5,0,0
+298,Allison Miss. Helen Loraine,female,2.0,1,2
+299,Saalfeld Mr. Adolphe,male,29.0,0,0
+300,Baxter Mrs. James (Helene DeLaudeniere Chaput),female,50.0,0,1
+301,"Kelly Miss. Anna Katherine ""Annie Kate""",female,29.0,0,0
+302,McCoy Mr. Bernard,male,29.0,2,0
+303,Johnson Mr. William Cahoone Jr,male,19.0,0,0
+304,Keane Miss. Nora A,female,29.0,0,0
+305,"Williams Mr. Howard Hugh ""Harry""",male,29.0,0,0
+306,Allison Master. Hudson Trevor,male,0.92,1,2
+307,Fleming Miss. Margaret,female,29.0,0,0
+308,Penasco y Castellana Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo),female,17.0,1,0
+309,Abelson Mr. Samuel,male,30.0,1,0
+310,Francatelli Miss. Laura Mabel,female,30.0,0,0
+311,Hays Miss. Margaret Bechstein,female,24.0,0,0
+312,Ryerson Miss. Emily Borie,female,18.0,2,2
+313,Lahtinen Mrs. William (Anna Sylfven),female,26.0,1,1
+314,Hendekovic Mr. Ignjac,male,28.0,0,0
+315,Hart Mr. Benjamin,male,43.0,1,1
+316,Nilsson Miss. Helmina Josefina,female,26.0,0,0
+317,Kantor Mrs. Sinai (Miriam Sternin),female,24.0,1,0
+318,Moraweck Dr. Ernest,male,54.0,0,0
+319,Wick Miss. Mary Natalie,female,31.0,0,2
+320,Spedden Mrs. Frederic Oakley (Margaretta Corning Stone),female,40.0,1,1
+321,Dennis Mr. Samuel,male,22.0,0,0
+322,Danoff Mr. Yoto,male,27.0,0,0
+323,Slayter Miss. Hilda Mary,female,30.0,0,0
+324,Caldwell Mrs. Albert Francis (Sylvia Mae Harbaugh),female,22.0,1,1
+325,Sage Mr. George John Jr,male,29.0,8,2
+326,Young Miss. Marie Grice,female,36.0,0,0
+327,Nysveen Mr. Johan Hansen,male,61.0,0,0
+328,Ball Mrs. (Ada E Hall),female,36.0,0,0
+329,Goldsmith Mrs. Frank John (Emily Alice Brown),female,31.0,1,1
+330,Hippach Miss. Jean Gertrude,female,16.0,0,1
+331,McCoy Miss. Agnes,female,29.0,2,0
+332,Partner Mr. Austen,male,45.5,0,0
+333,Graham Mr. George Edward,male,38.0,0,1
+334,Vander Planke Mr. Leo Edmondus,male,16.0,2,0
+335,Frauenthal Mrs. Henry William (Clara Heinsheimer),female,29.0,1,0
+336,Denkoff Mr. Mitto,male,29.0,0,0
+337,Pears Mr. Thomas Clinton,male,29.0,1,0
+338,Burns Miss. Elizabeth Margaret,female,41.0,0,0
+339,Dahl Mr. Karl Edwart,male,45.0,0,0
+340,Blackwell Mr. Stephen Weart,male,45.0,0,0
+341,Navratil Master. Edmond Roger,male,2.0,1,1
+342,Fortune Miss. Alice Elizabeth,female,24.0,3,2
+343,Collander Mr. Erik Gustaf,male,28.0,0,0
+344,Sedgwick Mr. Charles Frederick Waddington,male,25.0,0,0
+345,Fox Mr. Stanley Hubert,male,36.0,0,0
+346,"Brown Miss. Amelia ""Mildred""",female,24.0,0,0
+347,Smith Miss. Marion Elsie,female,40.0,0,0
+348,Davison Mrs. Thomas Henry (Mary E Finck),female,29.0,1,0
+349,"Coutts Master. William Loch ""William""",male,3.0,1,1
+350,Dimic Mr. Jovan,male,42.0,0,0
+351,Odahl Mr. Nils Martin,male,23.0,0,0
+352,Williams-Lambert Mr. Fletcher Fellows,male,29.0,0,0
+353,Elias Mr. Tannous,male,15.0,1,1
+354,Arnold-Franchi Mr. Josef,male,25.0,1,0
+355,Yousif Mr. Wazli,male,29.0,0,0
+356,Vanden Steen Mr. Leo Peter,male,28.0,0,0
+357,Bowerman Miss. Elsie Edith,female,22.0,0,1
+358,Funk Miss. Annie Clemmer,female,38.0,0,0
+359,McGovern Miss. Mary,female,29.0,0,0
+360,"Mockler Miss. Helen Mary ""Ellie""",female,29.0,0,0
+361,Skoog Mr. Wilhelm,male,40.0,1,4
+362,del Carlo Mr. Sebastiano,male,29.0,1,0
+363,Barbara Mrs. (Catherine David),female,45.0,0,1
+364,Asim Mr. Adola,male,35.0,0,0
+365,O'Brien Mr. Thomas,male,29.0,1,0
+366,Adahl Mr. Mauritz Nils Martin,male,30.0,0,0
+367,Warren Mrs. Frank Manley (Anna Sophia Atkinson),female,60.0,1,0
+368,Moussa Mrs. (Mantoura Boulos),female,29.0,0,0
+369,Jermyn Miss. Annie,female,29.0,0,0
+370,Aubart Mme. Leontine Pauline,female,24.0,0,0
+371,Harder Mr. George Achilles,male,25.0,1,0
+372,Wiklund Mr. Jakob Alfred,male,18.0,1,0
+373,Beavan Mr. William Thomas,male,19.0,0,0
+374,Ringhini Mr. Sante,male,22.0,0,0
+375,Palsson Miss. Stina Viola,female,3.0,3,1
+376,Meyer Mrs. Edgar Joseph (Leila Saks),female,29.0,1,0
+377,Landergren Miss. Aurora Adelia,female,22.0,0,0
+378,Widener Mr. Harry Elkins,male,27.0,0,2
+379,Betros Mr. Tannous,male,20.0,0,0
+380,Gustafsson Mr. Karl Gideon,male,19.0,0,0
+381,Bidois Miss. Rosalie,female,42.0,0,0
+382,"Nakid Miss. Maria (""Mary"")",female,1.0,0,2
+383,Tikkanen Mr. Juho,male,32.0,0,0
+384,Holverson Mrs. Alexander Oskar (Mary Aline Towner),female,35.0,1,0
+385,Plotcharsky Mr. Vasil,male,29.0,0,0
+386,Davies Mr. Charles Henry,male,18.0,0,0
+387,Goodwin Master. Sidney Leonard,male,1.0,5,2
+388,Buss Miss. Kate,female,36.0,0,0
+389,Sadlier Mr. Matthew,male,29.0,0,0
+390,Lehmann Miss. Bertha,female,17.0,0,0
+391,Carter Mr. William Ernest,male,36.0,1,2
+392,Jansson Mr. Carl Olof,male,21.0,0,0
+393,Gustafsson Mr. Johan Birger,male,28.0,2,0
+394,Newell Miss. Marjorie,female,23.0,1,0
+395,Sandstrom Mrs. Hjalmar (Agnes Charlotta Bengtsson),female,24.0,0,2
+396,Johansson Mr. Erik,male,22.0,0,0
+397,Olsson Miss. Elina,female,31.0,0,0
+398,McKane Mr. Peter David,male,46.0,0,0
+399,Pain Dr. Alfred,male,23.0,0,0
+400,Trout Mrs. William H (Jessie L),female,28.0,0,0
+401,Niskanen Mr. Juha,male,39.0,0,0
+402,Adams Mr. John,male,26.0,0,0
+403,Jussila Miss. Mari Aina,female,21.0,1,0
+404,Hakkarainen Mr. Pekka Pietari,male,28.0,1,0
+405,Oreskovic Miss. Marija,female,20.0,0,0
+406,Gale Mr. Shadrach,male,34.0,1,0
+407,Widegren Mr. Carl/Charles Peter,male,51.0,0,0
+408,Richards Master. William Rowe,male,3.0,1,1
+409,Birkeland Mr. Hans Martin Monsen,male,21.0,0,0
+410,Lefebre Miss. Ida,female,29.0,3,1
+411,Sdycoff Mr. Todor,male,29.0,0,0
+412,Hart Mr. Henry,male,29.0,0,0
+413,Minahan Miss. Daisy E,female,33.0,1,0
+414,Cunningham Mr. Alfred Fleming,male,29.0,0,0
+415,Sundman Mr. Johan Julian,male,44.0,0,0
+416,Meek Mrs. Thomas (Annie Louise Rowley),female,29.0,0,0
+417,Drew Mrs. James Vivian (Lulu Thorne Christian),female,34.0,1,1
+418,Silven Miss. Lyyli Karoliina,female,18.0,0,2
+419,Matthews Mr. William John,male,30.0,0,0
+420,Van Impe Miss. Catharina,female,10.0,0,2
+421,Gheorgheff Mr. Stanio,male,29.0,0,0
+422,Charters Mr. David,male,21.0,0,0
+423,Zimmerman Mr. Leo,male,29.0,0,0
+424,Danbom Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren),female,28.0,1,1
+425,Rosblom Mr. Viktor Richard,male,18.0,1,1
+426,Wiseman Mr. Phillippe,male,29.0,0,0
+427,Clarke Mrs. Charles V (Ada Maria Winfield),female,28.0,1,0
+428,"Phillips Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19.0,0,0
+429,Flynn Mr. James,male,29.0,0,0
+430,Pickard Mr. Berk (Berk Trembisky),male,32.0,0,0
+431,Bjornstrom-Steffansson Mr. Mauritz Hakan,male,28.0,0,0
+432,Thorneycroft Mrs. Percival (Florence Kate White),female,29.0,1,0
+433,Louch Mrs. Charles Alexander (Alice Adelaide Slow),female,42.0,1,0
+434,Kallio Mr. Nikolai Erland,male,17.0,0,0
+435,Silvey Mr. William Baird,male,50.0,1,0
+436,Carter Miss. Lucile Polk,female,14.0,1,2
+437,"Ford Miss. Doolina Margaret ""Daisy""",female,21.0,2,2
+438,Richards Mrs. Sidney (Emily Hocking),female,24.0,2,3
+439,Fortune Mr. Mark,male,64.0,1,4
+440,Kvillner Mr. Johan Henrik Johannesson,male,31.0,0,0
+441,Hart Mrs. Benjamin (Esther Ada Bloomfield),female,45.0,1,1
+442,Hampe Mr. Leon,male,20.0,0,0
+443,Petterson Mr. Johan Emil,male,25.0,1,0
+444,Reynaldo Ms. Encarnacion,female,28.0,0,0
+445,Johannesen-Bratthammer Mr. Bernt,male,29.0,0,0
+446,Dodge Master. Washington,male,4.0,0,2
+447,Mellinger Miss. Madeleine Violet,female,13.0,0,1
+448,Seward Mr. Frederic Kimber,male,34.0,0,0
+449,Baclini Miss. Marie Catherine,female,5.0,2,1
+450,Peuchen Major. Arthur Godfrey,male,52.0,0,0
+451,West Mr. Edwy Arthur,male,36.0,1,2
+452,Hagland Mr. Ingvald Olai Olsen,male,29.0,1,0
+453,Foreman Mr. Benjamin Laventall,male,30.0,0,0
+454,Goldenberg Mr. Samuel L,male,49.0,1,0
+455,Peduzzi Mr. Joseph,male,29.0,0,0
+456,Jalsevac Mr. Ivan,male,29.0,0,0
+457,Millet Mr. Francis Davis,male,65.0,0,0
+458,Kenyon Mrs. Frederick R (Marion),female,29.0,1,0
+459,Toomey Miss. Ellen,female,50.0,0,0
+460,O'Connor Mr. Maurice,male,29.0,0,0
+461,Anderson Mr. Harry,male,48.0,0,0
+462,Morley Mr. William,male,34.0,0,0
+463,Gee Mr. Arthur H,male,47.0,0,0
+464,Milling Mr. Jacob Christian,male,48.0,0,0
+465,Maisner Mr. Simon,male,29.0,0,0
+466,Goncalves Mr. Manuel Estanslas,male,38.0,0,0
+467,Campbell Mr. William,male,29.0,0,0
+468,Smart Mr. John Montgomery,male,56.0,0,0
+469,Scanlan Mr. James,male,29.0,0,0
+470,Baclini Miss. Helene Barbara,female,0.75,2,1
+471,Keefe Mr. Arthur,male,29.0,0,0
+472,Cacic Mr. Luka,male,38.0,0,0
+473,West Mrs. Edwy Arthur (Ada Mary Worth),female,33.0,1,2
+474,Jerwan Mrs. Amin S (Marie Marthe Thuillard),female,23.0,0,0
+475,Strandberg Miss. Ida Sofia,female,22.0,0,0
+476,Clifford Mr. George Quincy,male,29.0,0,0
+477,Renouf Mr. Peter Henry,male,34.0,1,0
+478,Braund Mr. Lewis Richard,male,29.0,1,0
+479,Karlsson Mr. Nils August,male,22.0,0,0
+480,Hirvonen Miss. Hildur E,female,2.0,0,1
+481,Goodwin Master. Harold Victor,male,9.0,5,2
+482,"Frost Mr. Anthony Wood ""Archie""",male,29.0,0,0
+483,Rouse Mr. Richard Henry,male,50.0,0,0
+484,Turkula Mrs. (Hedwig),female,63.0,0,0
+485,Bishop Mr. Dickinson H,male,25.0,1,0
+486,Lefebre Miss. Jeannie,female,29.0,3,1
+487,Hoyt Mrs. Frederick Maxfield (Jane Anne Forby),female,35.0,1,0
+488,Kent Mr. Edward Austin,male,58.0,0,0
+489,Somerton Mr. Francis William,male,30.0,0,0
+490,"Coutts Master. Eden Leslie ""Neville""",male,9.0,1,1
+491,Hagland Mr. Konrad Mathias Reiersen,male,29.0,1,0
+492,Windelov Mr. Einar,male,21.0,0,0
+493,Molson Mr. Harry Markland,male,55.0,0,0
+494,Artagaveytia Mr. Ramon,male,71.0,0,0
+495,Stanley Mr. Edward Roland,male,21.0,0,0
+496,Yousseff Mr. Gerious,male,29.0,0,0
+497,Eustis Miss. Elizabeth Mussey,female,54.0,1,0
+498,Shellard Mr. Frederick William,male,29.0,0,0
+499,Allison Mrs. Hudson J C (Bessie Waldo Daniels),female,25.0,1,2
+500,Svensson Mr. Olof,male,24.0,0,0
+501,Calic Mr. Petar,male,17.0,0,0
+502,Canavan Miss. Mary,female,21.0,0,0
+503,O'Sullivan Miss. Bridget Mary,female,29.0,0,0
+504,Laitinen Miss. Kristina Sofia,female,37.0,0,0
+505,Maioni Miss. Roberta,female,16.0,0,0
+506,Penasco y Castellana Mr. Victor de Satode,male,18.0,1,0
+507,Quick Mrs. Frederick Charles (Jane Richards),female,33.0,0,2
+508,"Bradley Mr. George (""George Arthur Brayton"")",male,29.0,0,0
+509,Olsen Mr. Henry Margido,male,28.0,0,0
+510,Lang Mr. Fang,male,26.0,0,0
+511,Daly Mr. Eugene Patrick,male,29.0,0,0
+512,Webber Mr. James,male,29.0,0,0
+513,McGough Mr. James Robert,male,36.0,0,0
+514,Rothschild Mrs. Martin (Elizabeth L. Barrett),female,54.0,1,0
+515,Coleff Mr. Satio,male,24.0,0,0
+516,Walker Mr. William Anderson,male,47.0,0,0
+517,Lemore Mrs. (Amelia Milley),female,34.0,0,0
+518,Ryan Mr. Patrick,male,29.0,0,0
+519,"Angle Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36.0,1,0
+520,Pavlovic Mr. Stefo,male,32.0,0,0
+521,Perreault Miss. Anne,female,30.0,0,0
+522,Vovk Mr. Janko,male,22.0,0,0
+523,Lahoud Mr. Sarkis,male,29.0,0,0
+524,Hippach Mrs. Louis Albert (Ida Sophia Fischer),female,44.0,0,1
+525,Kassem Mr. Fared,male,29.0,0,0
+526,Farrell Mr. James,male,40.5,0,0
+527,Ridsdale Miss. Lucy,female,50.0,0,0
+528,Farthing Mr. John,male,29.0,0,0
+529,Salonen Mr. Johan Werner,male,39.0,0,0
+530,Hocking Mr. Richard George,male,23.0,2,1
+531,Quick Miss. Phyllis May,female,2.0,1,1
+532,Toufik Mr. Nakli,male,29.0,0,0
+533,Elias Mr. Joseph Jr,male,17.0,1,1
+534,Peter Mrs. Catherine (Catherine Rizk),female,29.0,0,2
+535,Cacic Miss. Marija,female,30.0,0,0
+536,Hart Miss. Eva Miriam,female,7.0,0,2
+537,Butt Major. Archibald Willingham,male,45.0,0,0
+538,LeRoy Miss. Bertha,female,30.0,0,0
+539,Risien Mr. Samuel Beard,male,29.0,0,0
+540,Frolicher Miss. Hedwig Margaritha,female,22.0,0,2
+541,Crosby Miss. Harriet R,female,36.0,0,2
+542,Andersson Miss. Ingeborg Constanzia,female,9.0,4,2
+543,Andersson Miss. Sigrid Elisabeth,female,11.0,4,2
+544,Beane Mr. Edward,male,32.0,1,0
+545,Douglas Mr. Walter Donald,male,50.0,1,0
+546,Nicholson Mr. Arthur Ernest,male,64.0,0,0
+547,Beane Mrs. Edward (Ethel Clarke),female,19.0,1,0
+548,Padro y Manent Mr. Julian,male,29.0,0,0
+549,Goldsmith Mr. Frank John,male,33.0,1,1
+550,Davies Master. John Morgan Jr,male,8.0,1,1
+551,Thayer Mr. John Borland Jr,male,17.0,0,2
+552,Sharp Mr. Percival James R,male,27.0,0,0
+553,O'Brien Mr. Timothy,male,29.0,0,0
+554,"Leeni Mr. Fahim (""Philip Zenni"")",male,22.0,0,0
+555,Ohman Miss. Velin,female,22.0,0,0
+556,Wright Mr. George,male,62.0,0,0
+557,"Duff Gordon Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48.0,1,0
+558,Robbins Mr. Victor,male,29.0,0,0
+559,Taussig Mrs. Emil (Tillie Mandelbaum),female,39.0,1,1
+560,de Messemaeker Mrs. Guillaume Joseph (Emma),female,36.0,1,0
+561,Morrow Mr. Thomas Rowan,male,29.0,0,0
+562,Sivic Mr. Husein,male,40.0,0,0
+563,Norman Mr. Robert Douglas,male,28.0,0,0
+564,Simmons Mr. John,male,29.0,0,0
+565,Meanwell Miss. (Marion Ogden),female,29.0,0,0
+566,Davies Mr. Alfred J,male,24.0,2,0
+567,Stoytcheff Mr. Ilia,male,19.0,0,0
+568,Palsson Mrs. Nils (Alma Cornelia Berglund),female,29.0,0,4
+569,Doharr Mr. Tannous,male,29.0,0,0
+570,Jonsson Mr. Carl,male,32.0,0,0
+571,Harris Mr. George,male,62.0,0,0
+572,Appleton Mrs. Edward Dale (Charlotte Lamson),female,53.0,2,0
+573,"Flynn Mr. John Irwin (""Irving"")",male,36.0,0,0
+574,Kelly Miss. Mary,female,29.0,0,0
+575,Rush Mr. Alfred George John,male,16.0,0,0
+576,Patchett Mr. George,male,19.0,0,0
+577,Garside Miss. Ethel,female,34.0,0,0
+578,Silvey Mrs. William Baird (Alice Munger),female,39.0,1,0
+579,Caram Mrs. Joseph (Maria Elias),female,29.0,1,0
+580,Jussila Mr. Eiriik,male,32.0,0,0
+581,Christy Miss. Julie Rachel,female,25.0,1,1
+582,Thayer Mrs. John Borland (Marian Longstreth Morris),female,39.0,1,1
+583,Downton Mr. William James,male,54.0,0,0
+584,Ross Mr. John Hugo,male,36.0,0,0
+585,Paulner Mr. Uscher,male,29.0,0,0
+586,Taussig Miss. Ruth,female,18.0,0,2
+587,Jarvis Mr. John Denzil,male,47.0,0,0
+588,Frolicher-Stehli Mr. Maxmillian,male,60.0,1,1
+589,Gilinski Mr. Eliezer,male,22.0,0,0
+590,Murdlin Mr. Joseph,male,29.0,0,0
+591,Rintamaki Mr. Matti,male,35.0,0,0
+592,Stephenson Mrs. Walter Bertram (Martha Eustis),female,52.0,1,0
+593,Elsbury Mr. William James,male,47.0,0,0
+594,Bourke Miss. Mary,female,29.0,0,2
+595,Chapman Mr. John Henry,male,37.0,1,0
+596,Van Impe Mr. Jean Baptiste,male,36.0,1,1
+597,Leitch Miss. Jessie Wills,female,29.0,0,0
+598,Johnson Mr. Alfred,male,49.0,0,0
+599,Boulos Mr. Hanna,male,29.0,0,0
+600,"Duff Gordon Sir. Cosmo Edmund (""Mr Morgan"")",male,49.0,1,0
+601,Jacobsohn Mrs. Sidney Samuel (Amy Frances Christy),female,24.0,2,1
+602,Slabenoff Mr. Petco,male,29.0,0,0
+603,Harrington Mr. Charles H,male,29.0,0,0
+604,Torber Mr. Ernst William,male,44.0,0,0
+605,"Homer Mr. Harry (""Mr E Haven"")",male,35.0,0,0
+606,Lindell Mr. Edvard Bengtsson,male,36.0,1,0
+607,Karaic Mr. Milan,male,30.0,0,0
+608,Daniel Mr. Robert Williams,male,27.0,0,0
+609,Laroche Mrs. Joseph (Juliette Marie Louise Lafargue),female,22.0,1,2
+610,Shutes Miss. Elizabeth W,female,40.0,0,0
+611,Andersson Mrs. Anders Johan (Alfrida Konstantia Brogren),female,39.0,1,5
+612,Jardin Mr. Jose Neto,male,29.0,0,0
+613,Murphy Miss. Margaret Jane,female,29.0,1,0
+614,Horgan Mr. John,male,29.0,0,0
+615,Brocklebank Mr. William Alfred,male,35.0,0,0
+616,Herman Miss. Alice,female,24.0,1,2
+617,Danbom Mr. Ernst Gilbert,male,34.0,1,1
+618,Lobb Mrs. William Arthur (Cordelia K Stanlick),female,26.0,1,0
+619,Becker Miss. Marion Louise,female,4.0,2,1
+620,Gavey Mr. Lawrence,male,26.0,0,0
+621,Yasbeck Mr. Antoni,male,27.0,1,0
+622,Kimball Mr. Edwin Nelson Jr,male,42.0,1,0
+623,Nakid Mr. Sahid,male,20.0,1,1
+624,Hansen Mr. Henry Damsgaard,male,21.0,0,0
+625,"Bowen Mr. David John ""Dai""",male,21.0,0,0
+626,Sutton Mr. Frederick,male,61.0,0,0
+627,Kirkland Rev. Charles Leonard,male,57.0,0,0
+628,Longley Miss. Gretchen Fiske,female,21.0,0,0
+629,Bostandyeff Mr. Guentcho,male,26.0,0,0
+630,O'Connell Mr. Patrick D,male,29.0,0,0
+631,Barkworth Mr. Algernon Henry Wilson,male,80.0,0,0
+632,Lundahl Mr. Johan Svensson,male,51.0,0,0
+633,Stahelin-Maeglin Dr. Max,male,32.0,0,0
+634,Parr Mr. William Henry Marsh,male,29.0,0,0
+635,Skoog Miss. Mabel,female,9.0,3,2
+636,Davis Miss. Mary,female,28.0,0,0
+637,Leinonen Mr. Antti Gustaf,male,32.0,0,0
+638,Collyer Mr. Harvey,male,31.0,1,1
+639,Panula Mrs. Juha (Maria Emilia Ojala),female,41.0,0,5
+640,Thorneycroft Mr. Percival,male,29.0,1,0
+641,Jensen Mr. Hans Peder,male,20.0,0,0
+642,Sagesser Mlle. Emma,female,24.0,0,0
+643,Skoog Miss. Margit Elizabeth,female,2.0,3,2
+644,Foo Mr. Choong,male,29.0,0,0
+645,Baclini Miss. Eugenie,female,0.75,2,1
+646,Harper Mr. Henry Sleeper,male,48.0,1,0
+647,Cor Mr. Liudevit,male,19.0,0,0
+648,Simonius-Blumer Col. Oberst Alfons,male,56.0,0,0
+649,Willey Mr. Edward,male,29.0,0,0
+650,Stanley Miss. Amy Zillah Elsie,female,23.0,0,0
+651,Mitkoff Mr. Mito,male,29.0,0,0
+652,Doling Miss. Elsie,female,18.0,0,1
+653,Kalvik Mr. Johannes Halvorsen,male,21.0,0,0
+654,"O'Leary Miss. Hanora ""Norah""",female,29.0,0,0
+655,"Hegarty Miss. Hanora ""Nora""",female,18.0,0,0
+656,Hickman Mr. Leonard Mark,male,24.0,2,0
+657,Radeff Mr. Alexander,male,29.0,0,0
+658,Bourke Mrs. John (Catherine),female,32.0,1,1
+659,Eitemiller Mr. George Floyd,male,23.0,0,0
+660,Newell Mr. Arthur Webster,male,58.0,0,2
+661,Frauenthal Dr. Henry William,male,50.0,2,0
+662,Badt Mr. Mohamed,male,40.0,0,0
+663,Colley Mr. Edward Pomeroy,male,47.0,0,0
+664,Coleff Mr. Peju,male,36.0,0,0
+665,Lindqvist Mr. Eino William,male,20.0,1,0
+666,Hickman Mr. Lewis,male,32.0,2,0
+667,Butler Mr. Reginald Fenton,male,25.0,0,0
+668,Rommetvedt Mr. Knud Paust,male,29.0,0,0
+669,Cook Mr. Jacob,male,43.0,0,0
+670,Taylor Mrs. Elmer Zebley (Juliet Cummins Wright),female,29.0,1,0
+671,Brown Mrs. Thomas William Solomon (Elizabeth Catherine Ford),female,40.0,1,1
+672,Davidson Mr. Thornton,male,31.0,1,0
+673,Mitchell Mr. Henry Michael,male,70.0,0,0
+674,Wilhelms Mr. Charles,male,31.0,0,0
+675,Watson Mr. Ennis Hastings,male,29.0,0,0
+676,Edvardsson Mr. Gustaf Hjalmar,male,18.0,0,0
+677,Sawyer Mr. Frederick Charles,male,24.5,0,0
+678,Turja Miss. Anna Sofia,female,18.0,0,0
+679,Goodwin Mrs. Frederick (Augusta Tyler),female,43.0,1,6
+680,Cardeza Mr. Thomas Drake Martinez,male,36.0,0,1
+681,Peters Miss. Katie,female,29.0,0,0
+682,Hassab Mr. Hammad,male,27.0,0,0
+683,Olsvigen Mr. Thor Anderson,male,20.0,0,0
+684,Goodwin Mr. Charles Edward,male,14.0,5,2
+685,Brown Mr. Thomas William Solomon,male,60.0,1,1
+686,Laroche Mr. Joseph Philippe Lemercier,male,25.0,1,2
+687,Panula Mr. Jaako Arnold,male,14.0,4,1
+688,Dakic Mr. Branko,male,19.0,0,0
+689,Fischer Mr. Eberhard Thelander,male,18.0,0,0
+690,Madill Miss. Georgette Alexandra,female,15.0,0,1
+691,Dick Mr. Albert Adrian,male,31.0,1,0
+692,Karun Miss. Manca,female,4.0,0,1
+693,Lam Mr. Ali,male,29.0,0,0
+694,Saad Mr. Khalil,male,25.0,0,0
+695,Weir Col. John,male,60.0,0,0
+696,Chapman Mr. Charles Henry,male,52.0,0,0
+697,Kelly Mr. James,male,44.0,0,0
+698,"Mullens Miss. Katherine ""Katie""",female,29.0,0,0
+699,Thayer Mr. John Borland,male,49.0,1,1
+700,Humblen Mr. Adolf Mathias Nicolai Olsen,male,42.0,0,0
+701,Astor Mrs. John Jacob (Madeleine Talmadge Force),female,18.0,1,0
+702,Silverthorne Mr. Spencer Victor,male,35.0,0,0
+703,Barbara Miss. Saiide,female,18.0,0,1
+704,Gallagher Mr. Martin,male,25.0,0,0
+705,Hansen Mr. Henrik Juul,male,26.0,1,0
+706,"Morley Mr. Henry Samuel (""Mr Henry Marshall"")",male,39.0,0,0
+707,"Kelly Mrs. Florence ""Fannie""",female,45.0,0,0
+708,Calderhead Mr. Edward Pennington,male,42.0,0,0
+709,Cleaver Miss. Alice,female,22.0,0,0
+710,"Moubarek Master. Halim Gonios (""William George"")",male,29.0,1,1
+711,"Mayne Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24.0,0,0
+712,Klaber Mr. Herman,male,29.0,0,0
+713,Taylor Mr. Elmer Zebley,male,48.0,1,0
+714,Larsson Mr. August Viktor,male,29.0,0,0
+715,Greenberg Mr. Samuel,male,52.0,0,0
+716,Soholt Mr. Peter Andreas Lauritz Andersen,male,19.0,0,0
+717,Endres Miss. Caroline Louise,female,38.0,0,0
+718,"Troutt Miss. Edwina Celia ""Winnie""",female,27.0,0,0
+719,McEvoy Mr. Michael,male,29.0,0,0
+720,Johnson Mr. Malkolm Joackim,male,33.0,0,0
+721,"Harper Miss. Annie Jessie ""Nina""",female,6.0,0,1
+722,Jensen Mr. Svend Lauritz,male,17.0,1,0
+723,Gillespie Mr. William Henry,male,34.0,0,0
+724,Hodges Mr. Henry Price,male,50.0,0,0
+725,Chambers Mr. Norman Campbell,male,27.0,1,0
+726,Oreskovic Mr. Luka,male,20.0,0,0
+727,Renouf Mrs. Peter Henry (Lillian Jefferys),female,30.0,3,0
+728,Mannion Miss. Margareth,female,29.0,0,0
+729,Bryhl Mr. Kurt Arnold Gottfrid,male,25.0,1,0
+730,Ilmakangas Miss. Pieta Sofia,female,25.0,1,0
+731,Allen Miss. Elisabeth Walton,female,29.0,0,0
+732,Hassan Mr. Houssein G N,male,11.0,0,0
+733,Knight Mr. Robert J,male,29.0,0,0
+734,Berriman Mr. William John,male,23.0,0,0
+735,Troupiansky Mr. Moses Aaron,male,23.0,0,0
+736,Williams Mr. Leslie,male,28.5,0,0
+737,Ford Mrs. Edward (Margaret Ann Watson),female,48.0,1,3
+738,Lesurer Mr. Gustave J,male,35.0,0,0
+739,Ivanoff Mr. Kanio,male,29.0,0,0
+740,Nankoff Mr. Minko,male,29.0,0,0
+741,Hawksford Mr. Walter James,male,29.0,0,0
+742,Cavendish Mr. Tyrell William,male,36.0,1,0
+743,"Ryerson Miss. Susan Parker ""Suzette""",female,21.0,2,2
+744,McNamee Mr. Neal,male,24.0,1,0
+745,Stranden Mr. Juho,male,31.0,0,0
+746,Crosby Capt. Edward Gifford,male,70.0,1,1
+747,Abbott Mr. Rossmore Edward,male,16.0,1,1
+748,Sinkkonen Miss. Anna,female,30.0,0,0
+749,Marvin Mr. Daniel Warner,male,19.0,1,0
+750,Connaghton Mr. Michael,male,31.0,0,0
+751,Wells Miss. Joan,female,4.0,1,1
+752,Moor Master. Meier,male,6.0,0,1
+753,Vande Velde Mr. Johannes Joseph,male,33.0,0,0
+754,Jonkoff Mr. Lalio,male,23.0,0,0
+755,Herman Mrs. Samuel (Jane Laver),female,48.0,1,2
+756,Hamalainen Master. Viljo,male,0.67,1,1
+757,Carlsson Mr. August Sigfrid,male,28.0,0,0
+758,Bailey Mr. Percy Andrew,male,18.0,0,0
+759,Theobald Mr. Thomas Leonard,male,34.0,0,0
+760,Rothes the Countess. of (Lucy Noel Martha Dyer-Edwards),female,33.0,0,0
+761,Garfirth Mr. John,male,29.0,0,0
+762,Nirva Mr. Iisakki Antino Aijo,male,41.0,0,0
+763,Barah Mr. Hanna Assi,male,20.0,0,0
+764,Carter Mrs. William Ernest (Lucile Polk),female,36.0,1,2
+765,Eklund Mr. Hans Linus,male,16.0,0,0
+766,Hogeboom Mrs. John C (Anna Andrews),female,51.0,1,0
+767,Brewe Dr. Arthur Jackson,male,29.0,0,0
+768,Mangan Miss. Mary,female,30.5,0,0
+769,Moran Mr. Daniel J,male,29.0,1,0
+770,Gronnestad Mr. Daniel Danielsen,male,32.0,0,0
+771,Lievens Mr. Rene Aime,male,24.0,0,0
+772,Jensen Mr. Niels Peder,male,48.0,0,0
+773,Mack Mrs. (Mary),female,57.0,0,0
+774,Elias Mr. Dibo,male,29.0,0,0
+775,Hocking Mrs. Elizabeth (Eliza Needs),female,54.0,1,3
+776,Myhrman Mr. Pehr Fabian Oliver Malkolm,male,18.0,0,0
+777,Tobin Mr. Roger,male,29.0,0,0
+778,Emanuel Miss. Virginia Ethel,female,5.0,0,0
+779,Kilgannon Mr. Thomas J,male,29.0,0,0
+780,Robert Mrs. Edward Scott (Elisabeth Walton McMillan),female,43.0,0,1
+781,Ayoub Miss. Banoura,female,13.0,0,0
+782,Dick Mrs. Albert Adrian (Vera Gillespie),female,17.0,1,0
+783,Long Mr. Milton Clyde,male,29.0,0,0
+784,Johnston Mr. Andrew G,male,29.0,1,2
+785,Ali Mr. William,male,25.0,0,0
+786,Harmer Mr. Abraham (David Lishin),male,25.0,0,0
+787,Sjoblom Miss. Anna Sofia,female,18.0,0,0
+788,Rice Master. George Hugh,male,8.0,4,1
+789,Dean Master. Bertram Vere,male,1.0,1,2
+790,Guggenheim Mr. Benjamin,male,46.0,0,0
+791,"Keane Mr. Andrew ""Andy""",male,29.0,0,0
+792,Gaskell Mr. Alfred,male,16.0,0,0
+793,Sage Miss. Stella Anna,female,29.0,8,2
+794,Hoyt Mr. William Fisher,male,29.0,0,0
+795,Dantcheff Mr. Ristiu,male,25.0,0,0
+796,Otter Mr. Richard,male,39.0,0,0
+797,Leader Dr. Alice (Farnham),female,49.0,0,0
+798,Osman Mrs. Mara,female,31.0,0,0
+799,Ibrahim Shawah Mr. Yousseff,male,30.0,0,0
+800,Van Impe Mrs. Jean Baptiste (Rosalie Paula Govaert),female,30.0,1,1
+801,Ponesell Mr. Martin,male,34.0,0,0
+802,Collyer Mrs. Harvey (Charlotte Annie Tate),female,31.0,1,1
+803,Carter Master. William Thornton II,male,11.0,1,2
+804,Thomas Master. Assad Alexander,male,0.42,0,1
+805,Hedman Mr. Oskar Arvid,male,27.0,0,0
+806,Johansson Mr. Karl Johan,male,31.0,0,0
+807,Andrews Mr. Thomas Jr,male,39.0,0,0
+808,Pettersson Miss. Ellen Natalia,female,18.0,0,0
+809,Meyer Mr. August,male,39.0,0,0
+810,Chambers Mrs. Norman Campbell (Bertha Griggs),female,33.0,1,0
+811,Alexander Mr. William,male,26.0,0,0
+812,Lester Mr. James,male,39.0,0,0
+813,Slemen Mr. Richard James,male,35.0,0,0
+814,Andersson Miss. Ebba Iris Alfrida,female,6.0,4,2
+815,Tomlin Mr. Ernest Portage,male,30.5,0,0
+816,Fry Mr. Richard,male,29.0,0,0
+817,Heininen Miss. Wendla Maria,female,23.0,0,0
+818,Mallet Mr. Albert,male,31.0,1,1
+819,Holm Mr. John Fredrik Alexander,male,43.0,0,0
+820,Skoog Master. Karl Thorsten,male,10.0,3,2
+821,Hays Mrs. Charles Melville (Clara Jennings Gregg),female,52.0,1,1
+822,Lulic Mr. Nikola,male,27.0,0,0
+823,Reuchlin Jonkheer. John George,male,38.0,0,0
+824,Moor Mrs. (Beila),female,27.0,0,1
+825,Panula Master. Urho Abraham,male,2.0,4,1
+826,Flynn Mr. John,male,29.0,0,0
+827,Lam Mr. Len,male,29.0,0,0
+828,Mallet Master. Andre,male,1.0,0,2
+829,McCormack Mr. Thomas Joseph,male,29.0,0,0
+830,Stone Mrs. George Nelson (Martha Evelyn),female,62.0,0,0
+831,Yasbeck Mrs. Antoni (Selini Alexander),female,15.0,1,0
+832,Richards Master. George Sibley,male,0.83,1,1
+833,Saad Mr. Amin,male,29.0,0,0
+834,Augustsson Mr. Albert,male,23.0,0,0
+835,Allum Mr. Owen George,male,18.0,0,0
+836,Compton Miss. Sara Rebecca,female,39.0,1,1
+837,Pasic Mr. Jakob,male,21.0,0,0
+838,Sirota Mr. Maurice,male,29.0,0,0
+839,Chip Mr. Chang,male,32.0,0,0
+840,Marechal Mr. Pierre,male,29.0,0,0
+841,Alhomaki Mr. Ilmari Rudolf,male,20.0,0,0
+842,Mudd Mr. Thomas Charles,male,16.0,0,0
+843,Serepeca Miss. Augusta,female,30.0,0,0
+844,Lemberopolous Mr. Peter L,male,34.5,0,0
+845,Culumovic Mr. Jeso,male,17.0,0,0
+846,Abbing Mr. Anthony,male,42.0,0,0
+847,Sage Mr. Douglas Bullen,male,29.0,8,2
+848,Markoff Mr. Marin,male,35.0,0,0
+849,Harper Rev. John,male,28.0,0,1
+850,Goldenberg Mrs. Samuel L (Edwiga Grabowska),female,29.0,1,0
+851,Andersson Master. Sigvard Harald Elias,male,4.0,4,2
+852,Svensson Mr. Johan,male,74.0,0,0
+853,Boulos Miss. Nourelain,female,9.0,1,1
+854,Lines Miss. Mary Conover,female,16.0,0,1
+855,Carter Mrs. Ernest Courtenay (Lilian Hughes),female,44.0,1,0
+856,Aks Mrs. Sam (Leah Rosen),female,18.0,0,1
+857,Wick Mrs. George Dennick (Mary Hitchcock),female,45.0,1,1
+858,Daly Mr. Peter Denis ,male,51.0,0,0
+859,Baclini Mrs. Solomon (Latifa Qurban),female,24.0,0,3
+860,Razi Mr. Raihed,male,29.0,0,0
+861,Hansen Mr. Claus Peter,male,41.0,2,0
+862,Giles Mr. Frederick Edward,male,21.0,1,0
+863,Swift Mrs. Frederick Joel (Margaret Welles Barron),female,48.0,0,0
+864,"Sage Miss. Dorothy Edith ""Dolly""",female,29.0,8,2
+865,Gill Mr. John William,male,24.0,0,0
+866,Bystrom Mrs. (Karolina),female,42.0,0,0
+867,Duran y More Miss. Asuncion,female,27.0,1,0
+868,Roebling Mr. Washington Augustus II,male,31.0,0,0
+869,van Melkebeke Mr. Philemon,male,29.0,0,0
+870,Johnson Master. Harold Theodor,male,4.0,1,1
+871,Balkic Mr. Cerin,male,26.0,0,0
+872,Beckwith Mrs. Richard Leonard (Sallie Monypeny),female,47.0,1,1
+873,Carlsson Mr. Frans Olof,male,33.0,0,0
+874,Vander Cruyssen Mr. Victor,male,47.0,0,0
+875,Abelson Mrs. Samuel (Hannah Wizosky),female,28.0,1,0
+876,"Najib Miss. Adele Kiamie ""Jane""",female,15.0,0,0
+877,Gustafsson Mr. Alfred Ossian,male,20.0,0,0
+878,Petroff Mr. Nedelio,male,19.0,0,0
+879,Laleff Mr. Kristo,male,29.0,0,0
+880,Potter Mrs. Thomas Jr (Lily Alexenia Wilson),female,56.0,0,1
+881,Shelley Mrs. William (Imanita Parrish Hall),female,25.0,0,1
+882,Markun Mr. Johann,male,33.0,0,0
+883,Dahlberg Miss. Gerda Ulrika,female,22.0,0,0
+884,Banfield Mr. Frederick James,male,28.0,0,0
+885,Sutehall Mr. Henry Jr,male,25.0,0,0
+886,Rice Mrs. William (Margaret Norton),female,39.0,0,5
+887,Montvila Rev. Juozas,male,27.0,0,0
+888,Graham Miss. Margaret Edith,female,19.0,0,0
+889,"Johnston Miss. Catherine Helen ""Carrie""",female,29.0,1,2
+890,Behr Mr. Karl Howell,male,26.0,0,0
+891,Dooley Mr. Patrick,male,32.0,0,0
